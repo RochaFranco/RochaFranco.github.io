@@ -1,0 +1,41 @@
+body{
+background-color: #00b7eb;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2cm;
+}
+
+#linkedin{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 3cm;   
+    width: 6cm;
+    font-size: 1.5cm;
+    background-color: #c71585;
+    border-radius: 50px;
+    transform: translate(250%,0);
+}
+#github{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 3cm;   
+    width: 6cm;
+    font-size: 1.5cm;
+    background-color: #c71585;
+    border-radius: 50px;
+    transform: translate(370%,0);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#cv{
+    transform: translate(50%,10%);
+    width: 50%;
+    height: 90vh;;
+}
