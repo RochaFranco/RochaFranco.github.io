@@ -1,41 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+}
+
 body{
-background-color: #00b7eb;
+    background: url(/media/matriz.gif);
 }
 
-h1{
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2cm;
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #18171c;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#linkedin{
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 3cm;   
-    width: 6cm;
-    font-size: 1.5cm;
-    background-color: #c71585;
-    border-radius: 50px;
-    transform: translate(250%,0);
-}
-#github{
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 3cm;   
-    width: 6cm;
-    font-size: 1.5cm;
-    background-color: #c71585;
-    border-radius: 50px;
-    transform: translate(370%,0);
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
 }
 
 a{
-    color: black;
+    padding: 10px;
     text-decoration: none;
+    color: white;
 }
 
-#cv{
-    transform: translate(50%,10%);
-    width: 50%;
-    height: 90vh;;
+
+nav a:hover{
+    background: #373440;
+}
+
+.sobreMiConteiner{
+    background-color: rgba(255, 255, 255, 0.158);
+    height: 350px;
+    width: 500px;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.sobreMiConteiner p{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.sobreMiConteiner h1{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+
+    nav{
+        padding: 10px 0px;
+    }
 }
